@@ -20,6 +20,7 @@ Appears to be based on/clone of SONiX SN32F248B(SN32F24xB).
 ## Key Matrix
 
 ![img](/img/layout1.png)  
+![img](/img/CaliburV2TE_72iso_layout.png)
 ![img](/img/matrix1.png)  
 
 |Rows|Pin#|GPIO Name|
