@@ -1,10 +1,10 @@
-# DREVO Calibur V2 TE Reverse Engineering
+# DREVO Calibur V2 TE ISO Reverse Engineering
 
 Use this information at your own discretion and risk.
 
 ## Specification
 
-- 71-key (Layout with ANSI 60% plus arrow clusters and nav clusters)
+- 72-key ISO layout
 - RGB Front/Side lights
 - USB-C (Wired)
 
