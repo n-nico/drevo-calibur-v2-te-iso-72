@@ -108,7 +108,7 @@ void rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
     }
 }
 
-// Add this function to check the timer every scan
+// Function to check the timer every scan
 void matrix_scan_user(void) {
     if (bootloader_hold) {
         uint16_t elapsed = timer_elapsed(bootloader_timer);
