@@ -27,7 +27,7 @@ Appears to be based on/clone of SONiX SN32F248B(SN32F24xB).
 ![img](/img/matrix1.png)  
 
 |Rows|Pin#|GPIO Name|
-|:-|:-|:-|
+|:-|:-|:-|:-|
 |0|63|D11 (P3.11 in SN32F248B datasheet)|
 |1|62|D10|P3.10
 |2|61|D9|P3.9
