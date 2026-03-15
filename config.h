@@ -36,28 +36,26 @@
 #define MATRIX_ROW_PINS { D11, D10, D9, D8, D7 }
 #define MATRIX_COL_PINS { A8, A9, A10, A11, A12, A13, A14, A15, B0, B1, B2, B3, B4, B5, B6, B7 }
 #define UNUSED_PINS
-
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
-
-/* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 10
-#define TAPPING_TERM 130
-#define IGNORE_MOD_TAP_INTERRUPT
-
-/* RGB sleep */
-#define RGBLIGHT_SLEEP
-
-/* USB polling interval */
-#define USB_POLLING_INTERVAL_MS 1
-
-/* Matrix scanning optimization */
-#define MATRIX_IO_DELAY 30  // Add delay between matrix scans
-
-/* Prevent lock-ups */
-#define QMK_KEYS_PER_SCAN 4  // Limit keys processed per scan
-
-// Reduce scan rate to prevent overload
-#define MATRIX_SCAN_RATE 1000  // Scan every 1ms instead of faster
+//debounce ms
+#undef DEBOUNCE
+#define DEBOUNCE 5
+//how many keys are registered at the same time
+#undef NKRO_ENABLE
+#define USB_MAX_POWER_UNITS 100
+#define MAX_DEFERRED_EXECUTORS 4
+//sleep led
+#define RGB_DISABLE_WHEN_USB_SUSPENDED
+//#define MATRIX_IO_DELAY 30
+//#define TAPPING_TERM 130
+//#define IGNORE_MOD_TAP_INTERRUPT
+//#define QMK_KEYS_PER_SCAN 3
+//#define RGBLIGHT_SLEEP
+#define USB_POLLING_INTERVAL_MS 10
+//#define MATRIX_SCAN_RATE 1000
+//#define WAIT_FOR_USB
+//#define TAP_CODE_DELAY 10
+//#define TAP_HOLD_CAPS_DELAY 200
 
 #include "config_led.h"
