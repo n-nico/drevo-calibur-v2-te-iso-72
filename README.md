@@ -2,7 +2,7 @@
 !!!
 Use this information at your own discretion and risk. Always backup your current firmware for easy testing.
 This code is a modification of https://github.com/marksard/qmk_firmware/tree/sn32_master_add_drevo_caliburv2te_re_PR/keyboards/drevo/caliburv2te to get it to work for the 72 key variant from DREVO,
-if you use any of the code from this repository, you will not have any help to compile it and flash it from me.
+if you use any of the code from this repository.
 !!!
 
 ## Specification
